@@ -116,6 +116,26 @@ Collect raw text data from different sources
             correct spelling mistakes
                 ex- "running" -> "run"
 
+**removing stop words: 
+            remove stop words from text(optional- depends on task) like - is, the, and, etc
+                ex- "i love nlp" - you may or may not need the stopword "i"
+                using nltk library :nltk is a python library for natural language processing that provides tools for text processing 
+                like tokenization, stemming, lemmatization, stopword removal, etc
+
+                - now there is ur data wit messages and that is known as corpus 
+
+                
+                CORPUS is a collection of text data that is used to train an nlp model 
+                example: 
+                corpus = ["i love nlp", "i hate nlp", "i love nlp", "i hate nlp"]
+                like collection of text data is known as corpus     
+
+                token : each individual word in a text is known as token 
+                example: 
+                text = "i love nlp"
+                tokens = ["i", "love", "nlp"]
+
+                the process of splitting text into tokens is known as tokenization 
 
 
 ### **3. Text Representation (Feature Extraction)**
