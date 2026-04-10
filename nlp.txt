@@ -124,7 +124,7 @@ Collect raw text data from different sources
 
                 - now there is ur data wit messages and that is known as corpus 
 
-                
+
                 CORPUS is a collection of text data that is used to train an nlp model 
                 example: 
                 corpus = ["i love nlp", "i hate nlp", "i love nlp", "i hate nlp"]
@@ -147,6 +147,140 @@ Convert text → numerical form
     * Bag of Words (BoW) → word count
     * TF-IDF → importance of words
     * Word Embeddings → semantic meaning
+
+Got you 👍 **clean TXT notes format (copy paste ready)**
+
+---
+
+**Text Representation Techniques in NLP**
+
+---
+
+**1. One Hot Encoding**
+
+Definition:
+Each word is represented as a vector with 0s and 1s (only one 1, rest 0)
+
+Example:
+["I", "love", "AI"]
+I → [1,0,0]
+love → [0,1,0]
+AI → [0,0,1]
+
+Pros:
+
+* Simple and easy
+* No calculation needed
+
+Cons:
+
+* High dimensional (too many columns)
+* No meaning/relationship between words
+* Sparse matrix (mostly zeros)
+
+Use when:
+
+* Small dataset
+* Basic understanding
+
+Avoid when:
+
+* Large vocabulary
+* Need semantic meaning
+
+---
+
+**2. Bag of Words (BoW)**
+
+Definition:
+Counts frequency of each word in sentence (order ignored)
+
+Example:
+"I love AI love"
+→ {I:1, love:2, AI:1}
+
+Pros:
+
+* Simple and effective
+* Works well for basic tasks
+* Easy to implement
+
+Cons:
+
+* Ignores word order
+* No semantic meaning
+* High dimensional for large vocab
+
+Use when:
+
+* Text classification (spam, sentiment)
+* Small to medium dataset
+
+Avoid when:
+
+* Need context/meaning
+* Complex NLP tasks
+
+---
+
+**3. TF-IDF (Term Frequency – Inverse Document Frequency)**
+
+Definition:
+Gives importance to words based on frequency in document and rarity in dataset
+
+TF = how often word appears
+IDF = how rare word is
+
+Pros:
+
+* Better than BoW
+* Reduces importance of common words
+* Highlights important words
+
+Cons:
+
+* Still no deep meaning
+* Ignores word order
+* Slightly complex
+
+Use when:
+
+* Text classification
+* Search engines
+* Medium datasets
+
+Avoid when:
+
+* Deep understanding needed
+* Large complex NLP tasks
+
+---
+
+**Which is Best?**
+
+TF-IDF is generally best among these
+
+Why:
+
+* Considers importance of words
+* Reduces noise (common words)
+* Better accuracy than BoW and One Hot
+
+---
+
+**Final Summary**
+
+One Hot → simplest but inefficient
+BoW → good basic model
+TF-IDF → best for traditional ML models
+
+For advanced NLP:
+Use Word Embeddings / Transformers
+
+---
+
+
+
 
     👉 ML POV: model only understands numbers
 
