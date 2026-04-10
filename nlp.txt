@@ -1,0 +1,3 @@
+What is Nlp?
+-NLP (Natural Language Processing) is a field of AI (Artificial Intelligence) that helps computers understand,
+     interpret, and generate human language — like English, Hindi, etc.
