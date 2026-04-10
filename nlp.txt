@@ -1,3 +1,46 @@
 What is Nlp?
 -NLP (Natural Language Processing) is a field of AI (Artificial Intelligence) that helps computers understand,
      interpret, and generate human language — like English, Hindi, etc.
+
+In simple words:
+👉 It’s how machines “read, listen, and talk” like humans.
+
+Real World Applications of NLP:
+
+            Chatbots: automated user conversation
+            Translation: language convert (EN ↔ HI)
+            Sentiment Analysis: detect emotion in text
+            Voice Assistants: speech understanding
+            Spam Detection: filter unwanted emails
+            Autocomplete: predict next words
+            Search Engines: understand queries
+            Text Summarization: short from long text
+            Resume Screening: filter candidates
+            Text Generation: AI writing (answers/code)
+
+
+**Approaches of NLP**
+
+* Rule-Based Approach:
+  Uses predefined grammar rules, patterns, and dictionaries to process text
+  Limitation: rigid, cannot handle new words, slang, or complex sentences
+
+* Statistical Approach:
+  Uses probability and frequency of words from large datasets to predict meaning
+  Limitation: requires large data, ignores deeper context sometimes
+
+* Machine Learning Approach:
+  Uses algorithms that learn patterns from labeled data (e.g., classification tasks)
+  Limitation: performance depends on training data quality and feature selection
+
+* Deep Learning Approach:
+  Uses neural networks (like RNN, LSTM) to understand context, sequence, and meaning
+  Limitation: needs huge data, high computation, and time
+
+* Hybrid Approach:
+  Combines rule-based + ML/DL to improve accuracy and handle edge cases
+  Limitation: complex system design and harder to maintain
+
+
+
+
